@@ -23,16 +23,16 @@ padding: 30px;
     position:relative;
 }
 
-.logo-box{
+.header__logo-box{
 position: absolute;
  top: 40px;
  left: 40px;
 }
 
-.logo{
+.header__logo{
 height: 35px;
 }
-.logo:hover{
+.header__logo:hover{
 	animation: movetoleft 1s ease-out;
 }
 .heading-primary{
@@ -40,7 +40,7 @@ color: #fff;
 text-transform: uppercase;
 }
 
-.heading-primary-main{
+.heading-primary--main{
 display: block;
 font-size: 60px;
 font-weight: 700;
@@ -51,7 +51,7 @@ animation-timing-function: ease-out;
 backface-visibility: hidden;
 }
 
-.heading-primary-sub{
+.heading-primary--sub{
 display: block;
 font-size: 20px;
 font-weight: 700;
@@ -62,7 +62,7 @@ animation-timing-function: ease-out;
 backface-visibility: hidden;
 }
 
-.text-box{
+.header__text-box{
 	position: absolute;
 	top: 40%;
 	left: 50%;
@@ -115,7 +115,7 @@ position: relative;
 	box-shadow: 0 5px 10px rgb(0,0,0,0.2);
 }
 
-.btn-white
+.btn--white
 {
 	margin-top: 20px;
 background-color: white;
@@ -134,14 +134,14 @@ color: #777;
 	z-index: -1;
 	transition: all 0.4s;
 }
-.btn-white::after{
+.btn--white::after{
 	background-color: white;
 }
 .btn:hover::after{
 	transform: scale(2);
 	opacity: 0;
 }
-.btn-animation{
+.btn--animation{
 animation: moveinbottom 1s ease-out .7s;
 animation-fill-mode: backwards;
 }
